@@ -1,0 +1,47 @@
+version: '3.9'
+
+services:
+  api:
+    image: api
+    ports:
+      - "9100:9100"
+
+  pts:
+    image: pts
+    ports:
+      - "9200:9200"
+
+  bds:
+    image: bds
+    ports:
+      - "9300:9300"
+
+  pnc:
+    image: pnc
+    ports:
+      - "9400:9400"
+
+  mbs:
+    image: mbs
+    ports:
+      - "9500:9500"
+
+  pus:
+    image: pus
+    ports:
+      - "9700:9700"
+
+  fms:
+    image: fms
+    ports:
+      - "9800:9800"
+
+  cos:
+    image: cos
+    ports:
+      - "9900:9900"
+
+  iot:
+    image: iot
+    ports:
+      - "8900:8900"
