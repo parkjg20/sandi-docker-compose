@@ -1,7 +1,7 @@
 echo "SANDI Gradle 빌드를 시작합니다.";
 
 echo "- snicorp-sdc-api 빌드 시작 -";
-cd ~/Desktop/workspace/sdc/snicorp-sdc-api && ./gradlew clean build;
+cd ~/Desktop/workspace/sdc/snicorp-sni-api && ./gradlew clean build;
 
 echo "- snicorp-sdc-cos 빌드 시작 -";
 cd ~/Desktop/workspace/sdc/snicorp-sdc-cos && ./gradlew clean build;
