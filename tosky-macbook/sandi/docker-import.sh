@@ -1,4 +1,3 @@
-
 docker load -i ~/Desktop/sdc-api/api.tar
 docker load -i ~/Desktop/sdc-api/pts.tar
 docker load -i ~/Desktop/sdc-api/bds.tar
