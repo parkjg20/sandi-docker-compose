@@ -16,7 +16,7 @@ directories=(
 )
 
 for dir in "${directories[@]}"; do
-    echo "Checking out $branch in $dir..."
+    echo "===== Checking out $branch in $dir..."
     cd $dir
 
     # 브랜치가 존재하는지 확인
