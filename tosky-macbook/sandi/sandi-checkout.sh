@@ -4,15 +4,15 @@ echo 'Switch branches to '$branch;
 
 
 directories=(
-    "$HOME/Desktop/workspace/sdc/snicorp-sni-api"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-cos"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-bds"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-fms"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-iot"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-mbs"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-pnc"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-pts"
-    "$HOME/Desktop/workspace/sdc/snicorp-sdc-pus"
+    "$HOME/workspace/sandi/src/snicorp-sni-api"
+    "$HOME/workspace/sandi/src/snicorp-sdc-cos"
+    "$HOME/workspace/sandi/src/snicorp-sdc-bds"
+    "$HOME/workspace/sandi/src/snicorp-sdc-fms"
+    "$HOME/workspace/sandi/src/snicorp-sdc-iot"
+    "$HOME/workspace/sandi/src/snicorp-sdc-mbs"
+    "$HOME/workspace/sandi/src/snicorp-sdc-pnc"
+    "$HOME/workspace/sandi/src/snicorp-sdc-pts"
+    "$HOME/workspace/sandi/src/snicorp-sdc-pus"
 )
 
 for dir in "${directories[@]}"; do
